@@ -15,4 +15,4 @@ SEO;
 
 ## O que foi utilizado
 
-HTML5, CSS3, Bootstrap.
+HTML5, CSS3, Bootstrap e Javascript.

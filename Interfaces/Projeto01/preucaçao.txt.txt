@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site de venda de componentes de informática">
+        <meta name="keywords" content="Informática, componentes de informática, teclados, mouses, monitores">
+        <meta name="author" content="DarkSide Dev">
+        <title>DarkSide Dev - Informática</title>
+        <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/index.css">
+    </head>
+<body>
+    <header class="cabecalho">
+
+        <h1 class="logo">
+            <a href="index.html" title="Loja de Informática - DarkSide">Loja de Informática - DarkSide</a>
+        </h1>
+
+        <form action="" method="GET">
+
+            <input class="expanded"id="input" type="search" name="pesquisa" id="pesquisa" placeholder="Faça sua pesquisa">
+            <button onmouseover="expand(true)" onmouseleave="expand(false)"><img src="./assets/img/search.png" alt="Pesquisar" draggable="false"></button>
+
+        </form>
+
+    </header>
+    <nav class="menu">
+        <ul style="list-style:none;">
+            <li><a href="index.html">Mouse</a></li>
+            <li><a href="produtos.html">Teclado</a></li>
+            <li><a href="serviços.html">placa de video</a></li>
+            <li><a href="contato.html">Headset</a></li>
+        </ul>
+
+        <div class="social-icons">
+
+            <a target="_blank" href="https://www.facebook.com/darksideprogrammer">
+                <img src="./assets/img/facebook.png" alt="Facebook" draggable="false">
+            </a>
+
+            <a target="_blank" href="https://www.instagram.com/darkside_developer/">
+                <img src="./assets/img/instagram.png" alt="Instagram" draggable="false">
+            </a>
+
+            <a target="_blank" href="https://www.youtube.com/channel/UCnZLd-2agDMUiIKROD3gu1A">
+                <img src="./assets/img/youtube.png" alt="Youtube" draggable="false">
+            </a>
+
+            <a target="_blank" href="https://www.linkedin.com/in/joão-victor-arruda-99827a19b/">
+                <img src="./assets/img/linkedin.png" alt="LinkedIn" draggable="false">
+            </a>
+            <h2>Contatos</h2>
+
+            <ul>
+
+                <li><img src="./assets/img/phone.png" alt="Telefone"> (11) 9 9864 4066</li>
+
+                <li><img src="./assets/img/whatsapp.png" alt="WhatsApp"> (11) 9 9864 4066</li>
+
+                <li><img src="./assets/img/mail.png" alt="E-mail"> darksideprogrammer06@gmail.com</li>
+
+            </ul>
+
+        </aside>
+
+    </main>
+    
+    <section class="newsletter">
+
+        <div class="newsletter-info">
+
+            <h3>Newsletter</h3>
+
+            <p>Receba nossas promoções por E-mail</p>
+
+            <form action="" method="GET">
+
+                <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+
+                <input type="email" name="email" id="email" placeholder="Digite o seu e-mail aqui">
+
+                <button>Enviar</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>&copy Loja de Informática DarkSide - Todos os direitos reservados</p>
+
+
+
+    <script src="./assets/js/index.js"></script>
+
+        </div>
+       
+        </nav>
+    </footer>
+
+</body>
+</html>
